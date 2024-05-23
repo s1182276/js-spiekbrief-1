@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="jasmine-standalone/lib/jasmine/jasmine_favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="jasmine-standalone/lib/jasmine/jasmine.css"
+    />
+    <script
+      type="text/javascript"
+      src="jasmine-standalone/lib/jasmine/jasmine.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="jasmine-standalone/lib/jasmine/jasmine-html.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="jasmine-standalone/lib/jasmine/boot.js"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- in de test worden de bestanden uit src ingeladen -->
+    <script type="text/javascript" src="../src/js/Dice.js"></script>
+    <script type="text/javascript" src="../src/js/Helper.js"></script>
+    <script type="text/javascript" src="../src/js/Game.js"></script>
+    <link rel="stylesheet" href="../src/css/style.css" />
+  </head>
+  <body>
+    <script>
+      describe("opdracht 3", () => {
+        //define expected values
+        let expectedDiceName1 = "test dice 1";
+        let expectedDiceValues1 = Array.from("ABCDEf");
+        let expectedDiceName2 = "test dice 2";
+        let expectedDiceValues2 = Array.from("AB");
+        let expectedDiceName3 = "test dice 3";
+        let expectedDiceValues3 = Array.from("12345");
+        let diceObject1 = new Dice(expectedDiceName1, expectedDiceValues1);
+
+        beforeEach(() => {});
+
+        describe("opdracht 3a.1, constructor", () => {
+          it("Er is een klasse", () => {
+            expect(diceObject1).toBeDefined();
+          });
+
+          it("de constructor heeft 2 parameters, tweede parameter is een array", () => {
+            expect(diceObject1.name).toBe(expectedDiceName1);
+            expect(Array.isArray(diceObject1.values)).toBe(true);
+            expect(diceObject1.values.length).toBe(expectedDiceValues1.length);
+          });
+
+          it("de constructor throwed een error als de array te klein is (1)", () => {
+            const f = () => {
+              new Dice(expectedDiceName2, expectedDiceValues2);
+            };
+            expect(f).toThrow();
+          });
+          it("de constructor throwed een error als de array te klein is (2)", () => {
+            const f = () => {
+              new Dice(expectedDiceName3, expectedDiceValues3);
+            };
+            expect(f).toThrow();
+          });
+        });
+
+        describe("Dice.getRandomValue", () => {
+          it("De methode getRandomValue() bestaat", () => {
+            expect(diceObject1.getRandomValue).toBeDefined();
+            expect(typeof diceObject1.getRandomValue).toBe("function");
+          });
+
+          it("De methode geeft een random waarde terug", () => {
+            for (let i = 0; i < 6; i++)
+              expect(
+                expectedDiceValues1.includes(diceObject1.getRandomValue())
+              ).toBe(true);
+          });
+
+          it("De random waarde is niet null of een lege String", () => {
+            for (let i = 0; i < 100; i++){
+              expect(diceObject1.getRandomValue()).not.toBeNull();
+              expect(diceObject1.getRandomValue()).toBe('');
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

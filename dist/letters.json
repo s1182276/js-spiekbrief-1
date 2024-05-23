@@ -1,0 +1,293 @@
+{
+    "success": true,
+    "data": {
+        "alphabet": [
+            {
+                "letter": "a",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0749,
+                        "startfrequency": 0.0593,
+                        "endfrequency": 0.0124
+                    }
+                ]
+            },
+            {
+                "letter": "b",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0158,
+                        "startfrequency": 0.0763,
+                        "endfrequency": 0.0024
+                    }
+                ]
+            },
+            {
+                "letter": "c",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0124,
+                        "startfrequency": 0.0258,
+                        "endfrequency": 0.0013
+                    }
+                ]
+            },
+            {
+                "letter": "d",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0593,
+                        "startfrequency": 0.0431,
+                        "endfrequency": 0.0656
+                    }
+                ]
+            },
+            {
+                "letter": "e",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.1891,
+                        "startfrequency": 0.0206,
+                        "endfrequency": 0.1152
+                    }
+                ]
+            },
+            {
+                "letter": "f",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0081,
+                        "startfrequency": 0.0171,
+                        "endfrequency": 0.018
+                    }
+                ]
+            },
+            {
+                "letter": "g",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.034,
+                        "startfrequency": 0.0474,
+                        "endfrequency": 0.0866
+                    }
+                ]
+            },
+            {
+                "letter": "h",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0238,
+                        "startfrequency": 0.0415,
+                        "endfrequency": 0.0101
+                    }
+                ]
+            },
+            {
+                "letter": "i",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.065,
+                        "startfrequency": 0.0213,
+                        "endfrequency": 0.0073
+                    }
+                ]
+            },
+            {
+                "letter": "j",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0146,
+                        "startfrequency": 0.0073,
+                        "endfrequency": 0.007
+                    }
+                ]
+            },
+            {
+                "letter": "k",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0225,
+                        "startfrequency": 0.0725,
+                        "endfrequency": 0.057
+                    }
+                ]
+            },
+            {
+                "letter": "l",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0357,
+                        "startfrequency": 0.0361,
+                        "endfrequency": 0.0685
+                    }
+                ]
+            },
+            {
+                "letter": "m",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0221,
+                        "startfrequency": 0.0451,
+                        "endfrequency": 0.0274
+                    }
+                ]
+            },
+            {
+                "letter": "n",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.1003,
+                        "startfrequency": 0.0202,
+                        "endfrequency": 0.1967
+                    }
+                ]
+            },
+            {
+                "letter": "o",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0606,
+                        "startfrequency": 0.0534,
+                        "endfrequency": 0.0076
+                    }
+                ]
+            },
+            {
+                "letter": "p",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0157,
+                        "startfrequency": 0.0644,
+                        "endfrequency": 0.0248
+                    }
+                ]
+            },
+            {
+                "letter": "q",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0001,
+                        "startfrequency": 0.0011,
+                        "endfrequency": 0.0001
+                    }
+                ]
+            },
+            {
+                "letter": "r",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0641,
+                        "startfrequency": 0.0474,
+                        "endfrequency": 0.1114
+                    }
+                ]
+            },
+            {
+                "letter": "s",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0373,
+                        "startfrequency": 0.1067,
+                        "endfrequency": 0.0664
+                    }
+                ]
+            },
+            {
+                "letter": "t",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0679,
+                        "startfrequency": 0.0507,
+                        "endfrequency": 0.1019
+                    }
+                ]
+            },
+            {
+                "letter": "u",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0199,
+                        "startfrequency": 0.0126,
+                        "endfrequency": 0.002
+                    }
+                ]
+            },
+            {
+                "letter": "v",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0285,
+                        "startfrequency": 0.0669,
+                        "endfrequency": 0.0009
+                    }
+                ]
+            },
+            {
+                "letter": "w",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0152,
+                        "startfrequency": 0.0346,
+                        "endfrequency": 0.006
+                    }
+                ]
+            },
+            {
+                "letter": "x",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0004,
+                        "startfrequency": 0.0004,
+                        "endfrequency": 0.0015
+                    }
+                ]
+            },
+            {
+                "letter": "y",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0004,
+                        "startfrequency": 0.0003,
+                        "endfrequency": 0.0017
+                    }
+                ]
+            },
+            {
+                "letter": "z",
+                "stats": [
+                    {
+                        "language": "nl",
+                        "wordfrequency": 0.0139,
+                        "startfrequency": 0.0281,
+                        "endfrequency": 0.0004
+                    }
+                ]
+            }
+        ]
+    }
+}

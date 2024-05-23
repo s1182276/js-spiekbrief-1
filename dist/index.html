@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICT.DT.WEBD.RCS.19.t1.2023 (1e kans) Uitwerking student</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <!-- TODO door student, opgave XYZ-->
+    <header>🔤📚 WOORDENSCHAT 💍👑</header>
+    <main>
+      <article class="text">
+        Hoe is jouw woordenschat? Kraak je hersenen flink met dit spel. Probeer
+        in 60seconden zoveel mogelijk woorden op te schrijven die voldoen aan de
+        voorwaarden. De <span class="highlight-green">eerste</span> en
+        <span class="highlight-red">laatste</span> letter én het
+        <span class="highlight-yellow">aantal letters</span> van het woord
+        worden voor je bepaald door deze app. Hoeveel woorden kun jij
+        opschrijven binnen één minuut?
+      </article>
+      <article id="challenge-container" class="container">
+        <div class="octagon green" id="green-dice">A</div>
+        <div class="octagon red" id="red-dice">Z</div>
+        <div class="octagon yellow" id="yellow-dice">6</div>
+      </article>
+    </main>
+    <footer>&copy; Hogeschool Windesheim 2023</footer>
+    <script>
+      $(function () {
+        SPA.init('.container');
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "ict.dt.webd.rcs.19.t2.2022.2",
+  "version": "1.0.0",
+  "description": ":",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ekkebus/ict.dt.webd.rcs.19.t1.2021.2.git"
+  },
+  "author": "Swen-Peter Ekkebus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ekkebus/ict.dt.webd.rcs.19.t1.2021.2/issues"
+  },
+  "homepage": "https://gitlab.com/ekkebus/ict.dt.webd.rcs.19.t1.2021.2#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-order": "^1.2.0"
+  }
+}

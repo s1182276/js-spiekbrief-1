@@ -1,0 +1,41 @@
+@startuml
+'ALT+D to preview this PlantUML file (with Rich PlantUML plugin)
+
+'general layout
+skinparam minClassWidth 250
+skinparam ObjectFontSize 14
+skinparam NoteFontSize 14
+skinparam ClassAttributeIconSize 12
+
+object Game {
+    - container
+    - wordLengthDice
+    - startingLetterDice
+    - endingLetterDice
+    __
+    + init(containerSelector)
+    + showNewChallenge(startLetter, endLetter, wordLength)
+    - loadLetters(jsonUrl)
+}
+object Dice {
+    + name
+    + values[ ]
+    __
+    + Dice(name, values[ ])
+    + getRandomValue()
+}
+object Helper {
+    __
+    + delaySeconds(seconds)
+    + delaySecondsAwait(seconds)
+}
+
+note right of Helper
+    Deze klasse is al geïmplementeerd.
+end note
+
+Dice -left-- Game
+'hidden = trick to get it below Game class
+Game --[hidden]> Helper
+
+@enduml

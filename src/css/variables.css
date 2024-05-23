@@ -1,0 +1,15 @@
+/*colors are defined as CSS3 variables*/
+:root {
+    --red: #ff0000;
+    --green: #267f00;
+    --yellow: #ffd800;
+    --white: #ffffff;
+  
+    --header-background:var(--red);
+    --header-color:#ffffff;
+
+    /* octagon parameter  */
+    --octagon_size: 180px; 
+  }
+  /*example usage of variable: background-color: var(--green);*/
+  

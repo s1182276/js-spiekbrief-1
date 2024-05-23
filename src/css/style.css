@@ -1,0 +1,109 @@
+body {
+  font-size: 24px;
+}
+
+header,
+footer,
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    var(--green) 0%,
+    var(--red) 35%,
+    var(--yellow) 100%
+  );
+  color: white;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+footer {
+  font-size: small;
+}
+
+@media (max-width:800px){
+  .container {
+    width: 400px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width:800px){
+  .container {
+    width: 800px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+}
+
+.container .text {
+  font-size: x-large;
+  width: 100%;
+}
+
+.octagon {
+  width: var(--octagon_size);
+  height: calc(var(--octagon_size));
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+
+  font-size: xxx-large;
+  /*align the text in the middle using line-height*/
+  text-align: center;
+  line-height: calc(var(--octagon_size));
+  vertical-align: middle;
+  /* TODO door student, opgave 2a */
+  text-transform: capitalize;
+  animation: roll 5s;
+}
+
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.octagon.red,
+.highlight-red {
+  background-color: var(--red);
+  color: white;
+}
+.octagon.green,
+.highlight-green {
+  background-color: var(--green);
+  color: white;
+}
+.octagon.yellow,
+.highlight-yellow {
+  background-color: var(--yellow);
+  color: black;
+}
+
+/* TODO door student, opgave 2a */
+
+
+
+/* TODO door student, opgave 2c */
